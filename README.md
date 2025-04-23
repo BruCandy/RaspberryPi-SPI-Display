@@ -32,6 +32,7 @@
 ## 参考
 このプロジェクトでは、コマンドおよびデータ送信のタイミングの参考として、
 MITライセンスで公開されている [rdagger/micropython-ili9341](https://github.com/rdagger/micropython-ili9341) の ili9341.py を参考にしつつ、本プロジェクト用に一部改変を行っています。
+
 参考および改変したファイルは以下の通りです：
 - draw_square/ili9341_init.py
 - draw_square/ili9341_clear.py
