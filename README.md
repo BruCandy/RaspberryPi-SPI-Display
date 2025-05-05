@@ -56,7 +56,9 @@
 
 `draw_picture/data/` に格納されている画像は `main.py` と同じディレクトリに格納してください。
 
-![demo](docs/data/picture_example.gif)
+<div align="center">
+  <img src="docs/data/picture_example.gif" alt="demo" width="400">
+</div>
 
 
 ## 参考
