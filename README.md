@@ -37,7 +37,7 @@
 白色の正方形をディスプレイに描画した様子を以下に示します。
 
 <p align="center">
-  <img src="docs/images/square_example.jpg" alt="No　date" width="240" height="320">
+  <img src="docs/data/square_example.jpg" alt="No　date" width="240" height="320">
 </p>
 
 ### ディスプレイにペテルセングラフを描画
@@ -46,7 +46,7 @@
 白色のペテルセングラフをディスプレイに描画した様子を以下に示します。
 
 <p align="center">
-  <img src="docs/images/petersen_graph_example.jpg" alt="No　date" width="240" height="320">
+  <img src="docs/data/petersen_graph_example.jpg" alt="No　date" width="240" height="320">
 </p>
 
 ### ディスプレイに画像を描画
