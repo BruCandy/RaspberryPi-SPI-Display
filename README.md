@@ -29,6 +29,36 @@
   - ili9341.py : 画像の描画を行う
 
 
+## 実装内容とコード
+
+### ディスプレイに正方形を描画
+- `draw_square/` ディレクトリ に実装されています。
+
+白色の正方形をディスプレイに描画した様子を以下に示します。
+
+<p align="center">
+  <img src="docs/images/square_example.jpg" alt="No　date" width="240" height="320">
+</p>
+
+### ディスプレイにペテルセングラフを描画
+- `draw_petersen_graph/` ディレクトリ に実装されています。
+
+白色のペテルセングラフをディスプレイに描画した様子を以下に示します。
+
+<p align="center">
+  <img src="docs/images/petersen_graph_example.jpg" alt="No　date" width="240" height="320">
+</p>
+
+### ディスプレイに画像を描画
+- `draw_picture/` ディレクトリ に実装されています。
+
+画像をディスプレイに描画した様子を以下に示します。ボタンを押すことで、画像を切り替えることができます。
+
+`draw_picture/data/` に格納されている画像は `main.py` と同じディレクトリに格納してください。
+
+![demo](docs/data/picture_example.gif)
+
+
 ## 参考
 このプロジェクトでは、コマンドおよびデータ送信のタイミングの参考として、
 MITライセンスで公開されている [rdagger/micropython-ili9341](https://github.com/rdagger/micropython-ili9341) の ili9341.py を参考にしつつ、本プロジェクト用に一部改変を行っています。
