@@ -6,7 +6,7 @@ import time
 spi = SPI(0, baudrate=51200000, sck=Pin(18), mosi=Pin(19))
 display = Display(spi, dc=Pin(22), cs=Pin(28), rst=Pin(27))
 
-images = ["data/candy1_220_296.raw", "data/candy2_220_296.raw"]
+images = ["rabbit1.raw", "rabbit2.raw"]
 index = 0  
 button = Pin(21, Pin.IN, Pin.PULL_UP)
 

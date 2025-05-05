@@ -31,10 +31,10 @@ petersen_graph(spi, cs, dc)
 
 
 """ボタンによる再描画"""
-button = Pin(21, Pin.IN, Pin.PULL_DOWN)
+button = Pin(21, Pin.IN, Pin.PULL_UP)
 try:
     while True:
-        if button.value() == 1:
+        if button.value() == 0:
             # clear
             ili9341_clear(spi, cs, dc)
             # draw petersen graph
